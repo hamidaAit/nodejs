@@ -1,0 +1,167 @@
+/*le style du div modal cnx*/
+
+.modalcnx{
+	display: none ;
+	position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.cnx{
+	text-align: center;
+	font-size: 18px;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgb(230 230 230);
+  	margin:  1% auto; /* 15% from the top and centered */
+  	
+}
+.w1{
+	width: 25%;
+	height: 90%;
+
+}
+.w2{
+	width: 30%;
+	height: 90%;
+}
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.socialmedia{
+	display: flex;
+   	justify-content: center;
+   	justify-content: space-around;
+}
+.socialmedia p{
+	padding: 5px;
+   	margin: 15px;
+   	border: 1px  solid ;
+   	border-radius: 80%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}    
+.inputs input{
+	margin: 2%;
+	padding: 5%;
+	width: 90%;
+	border-radius: 10px;
+	border:none;
+	background-color:rgb(211 211 211);
+}
+.lien-inscr a{
+	color: blue;
+}
+
+ .form-div-insc{
+	margin-top: 5%;
+ 
+}
+.form-div-insc input{
+ 	border-radius: 10px;
+	border:none;
+	background-color:rgb(211 211 211);
+	padding: 2%;
+}
+ 
+.modalinsc h2{
+
+	padding-bottom: 5%;
+	border-bottom-style:inset;
+	}
+.type{
+	display: flex;
+	justify-content: center;
+}
+.label-input{
+	display: inline-block;
+	width: 120px;
+	text-align: left;
+}
+
+.btn-cnx button{
+	background-color:rgb(155 155 255);
+	border-radius: 20px;
+	border:none;
+	padding: 3%;
+	width:  60%;
+	font-size: 18px;
+	margin-top: 2%;
+}
+
+
+
+/*slider shop panier*/
+
+ .cart{
+ 	transition: .7s ease-in-out;
+    right: -25%;
+    background: white;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.cart-item{
+	float: left;
+	width: 90%;
+	text-align: center;
+
+}
+.cart-item img{
+	float: left;
+	width:15% ;
+	margin:0 0 2%  0%;
+}
+.btn-cart{
+	text-align: center;
+}
+.btn-cart button{
+	padding: 3% 8% 3% 8%;
+	font-size: 20px;
+	border-radius: 20px;
+	border:none;
+	background-color: rgb(155 155 255);
+	cursor: pointer;
+}
+.cart h2, .cart-item{
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+
+
+
+/*
+creer une classe pour l;affichage multiple*/
+.modal-active{
+	display: block;
+}
+.modal-active-r{
+	right: 0;
+}
+.modal-active-l{
+	left: 0;
+ 
+}
+.modal-active-h{
+	height: 300px;
+	box-shadow: 5px 5px 5px 5px ;
+
+}

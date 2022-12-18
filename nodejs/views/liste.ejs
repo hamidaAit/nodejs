@@ -1,0 +1,296 @@
+
+<%-include('layout/header.ejs')%>
+
+
+
+<div class="sub-nav header-space col-s-12">
+	<a href="#">Home</a>
+	<p><i class="fa fa-angle-right"></i></p>
+	<a href="#">Tous les produits</a>
+	<p><i class="fa fa-angle-right"></i></p>
+	<a href="#">Femme</a> 
+</div>
+<div class="toolbar">
+	<div class="filtre-menu">
+		<i class="fas fa-sort-amount-down"></i>
+ 		<button class="btnfiltre"  id="btnfiltre">Filtres</button>
+	</div>
+	 
+	<div class="sortby">
+		<label >Sort by : </label>				
+		<select>
+		    <option>Most Popular</option>
+			<option>Best selling</option>
+			<option>Alphabetically A-Z</option>
+			<option>Alphabetically Z-A</option>
+		    <option>Price low to hight</option>
+		    <option>Price hight to low </option>
+		   	<option>Date old to new</option>
+		   	<option>Date new to old</option>
+		</select>	
+	</div>
+
+	
+</div>
+
+
+
+
+
+ 
+<section class="container">
+	 
+	<div class="sliderfiltre" id="sliderfiltre">
+		<div class="form-div-list">
+			<p>Categorie </p>
+			<div>
+				<input type="checkbox" name="">
+				<label>Dress</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>T-shirt</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>Bags</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>Jackets</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>Shoes</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>jumpers</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>Jeans</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>Sport wears</label>
+			</div>
+
+		</div>
+
+		
+
+		<div class="form-div-list">
+			<p>Size</p>
+			<div>
+				<input type="checkbox" name="">
+				<label>xs</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>s</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>m</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>l</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>xl</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>xxl</label>
+			</div>
+
+		</div>
+
+		<div class="form-div-list">
+			<p>Color</p>
+			<div>
+  				<span style=color:red;>
+					<i class="fas fa-circle"></i>
+					<a href='#'>Rouge</a>
+  				</span>
+			</div>			
+			<div>
+  				<span style=color:blue;>
+					<i class="fas fa-circle"></i>
+					<a href='#'>Bleu</a>
+  				</span>
+			</div>
+			<div>
+  				<span style=color:green;>
+					<i class="fas fa-circle"></i>
+					<a href='#'>Vert</a>
+  				</span>
+			</div>			
+			<div>
+  				<span style=color:black;>
+					<i class="fas fa-circle"></i>
+					<a href='#'>noir</a>
+  				</span>
+			</div>
+			<div>
+  				<span style=color:white;>
+					<i class="fas fa-circle"></i>
+					<a href='#'>Blanc</a>
+  				</span>
+			</div>
+			<div>
+  				<span style=color:pink;>
+					<i class="fas fa-circle"></i>
+					<a href='#'>Rose</a>
+  				</span>
+			</div>
+		</div>
+
+		<div class="form-div-list">
+			<p>Brand</p>
+			<div>
+				<input type="checkbox" name="">
+				<label>next</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>river island</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>nike</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>Geox</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>new balance</label>
+			</div>
+			<div>
+				<input type="checkbox" name="">
+				<label>UGG</label>
+			</div>
+
+		</div>
+
+		<div class="form-div-list">
+			<p>Price</p>
+				<label for="vol">Price Range:0$-1000$</label>
+  				<input type="range" id="vol" name="vol" min="0" max="1000">
+		</div>
+	</div>
+
+
+	<!-- <% if (products){  
+		for(let i=0;i<products.length;i++){
+	 %>
+
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/<%= products[i].prod_id %>/1.jpg">
+			</div>
+			<p class="description">
+				 <%= products[i].prod_name%> <%= products[i].prod_desig%>
+				<br>18888dzd</p>
+		</div>
+
+
+	<% } }%>
+ -->
+
+
+
+
+
+
+
+
+	<div class="articles" id="articles">
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f1.png">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+
+
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f1.png">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f1.png">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+		
+
+	
+
+ 		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f2.jfif">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f2.jfif ">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f2.jfif ">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+
+		
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f3.jfif">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f3.jfif">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+
+		<div class="article col-4 col-m-6 col-s-12">
+			<div class='article-list'>
+				<img src="/img/f3.jfif">
+			</div>
+			<p class="description"> dkhfclfkasjkajsaksj<br>18888dzd</p>
+		</div>
+	 
+
+	</div>	
+
+	<div class="page" >
+		<p>Precedent</p>
+		<p>1</p>
+		<p>2</p>
+		<p>3</p>
+		<p>of 6</p>
+		<p>Next</p>
+	</div>
+	
+</section>
+
+<%-include('layout/footer.ejs')%>

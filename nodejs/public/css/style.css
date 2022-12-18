@@ -1,0 +1,174 @@
+html{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin:0;
+}
+
+ header{
+ 	position: absolute;
+ 	float: left;
+  width: 100%;
+ 	height: auto;
+  border-bottom-style: inset;
+
+  }
+ section{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 0%;
+
+}
+footer{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 10%;
+
+}
+
+
+.logo{
+	float: left;
+	width: 15%;
+}
+nav{
+	float: left;
+	width: 85%;
+	align-items: center;
+    display: flex;
+ }
+
+header ul {
+	float: left;
+	width:65% ;
+	display: flex;
+	list-style: none;
+	font-size:20px;
+  }
+header ul li{
+	margin-right: 6%;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+header a:hover{
+	color: rgb(25 129 216);
+}
+.nav form{
+ 	float: left;
+ 	width: 20%;
+ }
+.nav form input{
+	border-radius: 20px;
+	border:none;
+	padding:4%;
+	text-align:center;
+	background-color:#F4F6F7;
+
+}
+.nav p{
+	float: left;
+	width: 5%;
+ 	}
+
+ .sub-nav{
+	float: left;
+  	margin-top:100px;
+	display: flex;
+	margin-left: 3%;
+	font-size: 18px;
+}
+.sub-nav a{
+	 margin:1.3%;
+}
+.sub-nav a:hover{
+	text-decoration: underline;
+}
+
+/*footer*/
+.footer1{
+	border-bottom:1px solid;
+ }
+
+.footer1 h3,.footer1 p{
+	margin-left: 14%;
+}
+.footer1 ul{
+	list-style: none;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+.footer2{
+	text-align: center;
+}
+.iconmenu{
+  	float: right;
+  	width: 10%;
+	margin-top:5%;
+	display: none;
+ }
+.iconmenu button{
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+}
+ @media screen and (max-width:700px){
+	.nav {
+		width:150px;
+		height: 100%;
+  		position: fixed;
+		display: none;
+ 		flex-direction: column;
+		background-color:rgb(240, 255, 240);
+ 	 }
+	 .nav ul{
+	 	flex-direction: column;
+	 	display: flex;
+	 	text-align: center;
+	 }
+	 .nav li{
+	 	margin-bottom: 8%;
+
+	 }
+	 .nav form {
+	 	width: 150px;
+	 	margin-bottom: 8%;
+	 	text-align: center;
+
+	 }
+	 .nav form input{
+	 	width: 100px;
+ 	 }
+	 .nav p{
+		width: 50px;
+		text-align: center;
+   	 }
+
+	 .iconmenu{
+	 	display: block;
+	 }
+	 .txt-btn{
+	 	font-size:15px;
+	 	margin-top: 270px;
+	 }
+	 .btn-acheter{
+	 	display: none;
+	 }
+
+	 .container h1{
+ 		font-size: 20px;
+ 		margin-left: 6%;
+ 	  }
+	}
