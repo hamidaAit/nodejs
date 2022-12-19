@@ -2,7 +2,7 @@
   "name": "projet1",
   "version": "2.9.206",
    "scripts":{
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "bcrypt": "5.0.1",
