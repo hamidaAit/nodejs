@@ -1,6 +1,9 @@
 {
   "name": "projet1",
   "version": "2.9.206",
+   "scripts":{
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcrypt": "5.0.1",
     "ejs": "3.1.6",
