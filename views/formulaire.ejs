@@ -1,0 +1,160 @@
+<%-include('layout/header.ejs')%>
+
+ 
+<section class="container-form header-space">
+
+	<div class="formulaire">
+		<h2>Biling details</h2>
+		<form>
+			<div class="div-col-2">
+				<div>
+					<label>
+						First name *
+					</label><br>	
+					<input class='input-form' type="text" name="first-name">
+				</div>
+				<div style=margin-left:2%;>
+					<label>
+						Last name *
+					</label><br>
+					<input class='input-form' type="text" name="last-name">
+				</div>
+			</div>
+			
+
+			<div class='form-div'>
+				<label>
+					Company name (optionnel) *
+				</label><br>	
+				<input class='input-form' type="text" name="company-name">
+			</div>
+			<div class='form-div'>
+				<label>
+					Contry *
+				</label><br>	
+				<input class='input-form' type="text" name="contry">
+			</div>
+			<div class='form-div'>
+				<label>
+					Street adress *
+				</label><br>	
+				<input class='input-form' type="text" name="street" placeholder="house number and street name">
+				<br><br>
+				<input class='input-form' type="text" name="appartement" placeholder="appartement, sweet, unit..etc">
+			</div>
+
+			<div class="div-col-2">
+				<div>
+					<label>
+						Town/city *
+					</label><br>	
+					<input class='input-form' type="text" name="town">
+				</div>
+				<div style=margin-left:2%;>
+					<label>
+						State/country *
+					</label><br>	
+					<input class='input-form' type="text" name="state">
+				</div>
+			</div>
+
+
+			<div class="div-col-2">
+				<div>
+					<label>
+						Postcode/zip *
+					</label><br>	
+					<input class='input-form' type="text" name="postcode">
+				</div>
+				<div style=margin-left:2%;>
+					<label>
+						Phone *
+					</label><br>	
+					<input class='input-form' type="text" name="phone">
+				</div>
+			</div>
+
+
+			<div class='form-div'>
+				<label>
+					Email address *
+				</label><br>	
+				<input class='input-form' type="Email" name="mail">
+			</div>
+		</form>
+		<div>
+			<input class='input-form' type="checkbox" name="">
+			<label>Create an account</label>
+		</div>
+		<div>
+			<input class='input-form' type="checkbox" name="">
+			<label>Ship to another address?</label>
+		</div>
+		<div>
+			<p>Order notes(optional)</p>
+			<textarea class='textarea' placeholder="text about your order ex:special notes about delivery"></textarea>
+		</div>
+	</div>
+
+
+	<div class="detail">
+		<h4 class="y-order">Your order</h4>
+		<hr >
+		<div class='detail-col-2'>
+			<h4>Products</h4>
+			<h4>Total</h4>
+		</div>
+		<div class='detail-col-2'>
+			<p>Beige tshirt </p>
+			<p>84.00$</p>
+		</div>
+		<div class='detail-col-2'>
+			<p>white sneakers </p>
+			<p>50.00$</p>
+		</div>
+		<div class='detail-col-2'>
+			<p>Sac a main</p>
+			<p>40.00$</p>
+		</div>
+		<div class='detail-col-2'>
+			<h4>Subtotal</h4>
+			<h4>175.00$</h4>
+		</div>
+		<div class='detail-col-2'>
+			<p>Shipping </p>
+			<p>Free shipping</p>
+		</div>
+		<div class='detail-col-2'>
+			<h4>Total</h4>
+			<h4>175.00$</h4>
+		</div>
+		<div>
+			 <input class='input-form' type="checkbox" name="">
+			 <label>Direct Bank transfert</label>
+			 <p>Make your paiment make your paiment make your paiment
+			 		make your paiment make your paimentmake your paiment
+			 </p>
+		</div>
+		<div>
+			<input class='input-form' type="checkbox" name="">
+			<label>Check paiment</label>
+		</div>
+		<div>
+			<input class='input-form' type="checkbox" name="">
+			<label>Cash on dilevery</label>
+		</div>
+		<div>
+			<input class='input-form' type="checkbox" name="">
+			<label>Paypal</label>
+		</div>	
+		<div>
+			<input class='input-form' type="checkbox" name="">
+			<label>Credit card</label>
+		</div>
+		<button>Proceed to checkout</button>
+	</div>
+
+ 
+</section>
+
+<%-include('layout/footer.ejs')%>
